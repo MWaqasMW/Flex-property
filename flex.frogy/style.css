@@ -1,0 +1,238 @@
+/* 
+
+#main box{
+  width: 400px;
+height: 250px;
+    background-color:rgb(196, 196, 64);
+    border: 1px solid #000;
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+}
+#box1{
+
+    margin: 4px;
+    padding: 20px ;
+    border: 1px solid #000;
+    background-color: brown;
+}
+#box2{
+    margin: 4px;
+    padding: 20px;
+    border: 1px solid #000;
+
+
+}
+#box3{
+
+    background-color: yellow;
+    margin: 4px;
+    padding: 20px;
+    border: 1px solid #000;
+
+
+}
+#box4{
+    
+  
+    margin: 4px;
+    padding: 20px;
+    border: 1px solid #000;
+    background-color: green;
+}
+ */
+
+
+
+/* flex-direction  class1*/
+
+    /* display: flex;  
+                             flex:;
+    flex-direction: ;       justify-content:;
+    flex-wrap: ;            align-content:; 
+    flex-flow: ;            align-items: ; 
+    flex-grow: ;           align-self: ;
+    flex-shrink: ;         order: ;
+    flex-basis: ; */
+
+/* .box{ */
+           /* flex-direction: ;
+
+    flex-direction: column;
+    flex-direction: row;(defualt-value);
+    flex-direction: column-reverse;
+    flex-direction: row-reverse; */
+
+            /* flex-wrap: ; class2 */
+
+/* flex-wrap: nowrap;
+flex-wrap: wrap;(defualt value);
+flex-wrap: wrap-reverse;
+      */
+
+             /* flex-flow: ;  class3 */
+/* flex-flow:  short hand of flex-direction or flex-wrap ; */
+
+
+/* flex-flow: column wrap;
+flex-flow: column-reverse wrap;
+flex-flow: column nowrap;
+flex-flow: row wrap;
+flex-flow: row-reverse wrap;
+flex-flow: row nowrap; */
+
+
+                 /* justify-content: ; class 4 */
+
+             /*    justify-content: center;
+
+                 justify-content: flex-start;(defualt-value)
+                 justify-content: flex-end;
+                 justify-content: space-between;
+                 justify-content: space-around; 
+                 justify-content: space-evenly; */
+
+
+                 /* align-items: ;class 5 */
+
+                 /* for using single line item  verticaly alingment*/
+                    /* align-items:center;      
+                    align-items: flex-start;
+                    align-items: flex-end;
+                    align-items: stretch;
+                    align-items:baseline;
+
+
+
+               /* align-content: ; class 6 */
+
+                 /* for using single multipule line content  verticaly alingment*/
+                
+                 /* align-content: stretch;(default value) */
+                  /* align-content: flex-end;
+                  align-content: flex-start;
+                  align-content: center;
+                  align-content: space-around;
+                  align-content: space-between;
+                  align-content: space-evenly; */
+
+
+
+                  /* align-self: ; class 7 */
+
+                /* use  for single line to one element aligment */
+                  /* align-self: auto;(default value) */
+                  /* align-self: flex-start;
+                  align-self: flex-end;
+                  align-self: center;
+                  align-self: stretch;
+                  align-self: baseline;
+ */
+
+                  /* Order; class 8 */
+
+                  /* -2,-1,0,1,2
+                  the order use for change the position of elements in contaionr is sequense wise the
+                  sequense is -2,-1,0,1,2 the 0 is defualt value of order and postive number move right-side and negative-number is left-side  */
+
+
+
+                  /* flex-grow: ; class 9 */
+/* 
+                  flex-grow: 1;
+                  flex-grow:  this property effect only on containor-items equaly width providing items flex-grow providing a numeric value 1,2 ,3 and soon
+
+ */ 
+
+/* } */
+
+#containor{
+    background: #eee;
+    width: 400px;
+    height: 200px;
+    margin:50px auto  ;
+    padding: 10px;
+    border: 2px solid #000;
+
+    display: flex;
+
+   /* flex-direction: row;
+   flex-direction: column;
+   flex-direction: row-reverse;
+   flex-direction: column-reverse; */
+   
+           /* flex-wrap:  */
+
+   /* flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    flex-wrap: nowrap; */
+    
+           /* flex-flow:  */
+
+     /* flex-flow: column wrap;
+    flex-flow: column wrap-reverse;
+flex-flow: row wrap;
+flex-flow: row wrap-reverse; */
+
+
+       /* justify-content */
+
+/* justify-content: center;
+justify-content: flex-start;
+justify-content: flex-end;
+justify-content: space-around;
+justify-content: space-between;
+justify-content: space-evenly; */
+
+        /* align-items:  */
+/* align-items: center;
+align-items: flex-start;
+align-items: flex-end;
+align-items: baseline;
+align-items: stretch; */
+
+        /* align-content:  */
+
+        /* align-content: flex-start;
+        align-content: flex-end;
+        align-content: center;
+        align-content: stretch;
+        align-content: space-around;
+        align-content: space-between;
+        align-content: space-evenly; */
+
+          /* align-self:  */
+/* align-self: center;
+align-self: flex-start;
+align-self: flex-end;
+align-self: baseline;
+align-self: stretch;
+align-self: auto; */
+
+
+         /* order:  */
+      /* order: 1; */
+
+
+
+      /* flex-grow:  */
+      /* using for width and space handling only inner contaionr  */
+flex-wrap: wrap;       
+
+
+
+}
+#box1{background-color: red; }
+#box2{background-color: yellowgreen;}
+#box3{background-color: purple;}
+#box4{background-color: hotpink;}
+.box{color: #fff;font-size: 22px;font-weight: bold; text-align: center; flex-grow: 1;}
+
+
+
+
+
+
+
+
+
